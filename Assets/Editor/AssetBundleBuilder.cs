@@ -22,7 +22,7 @@ public class AssetBundleBuilder
 
     private static void UpdateVersionJson()
     {
-        string versionFilePath = "Editor/version.json";
+        string versionFilePath = Path.Combine(Application.streamingAssetsPath, "version.json");
         if (File.Exists(versionFilePath))
         {
             string json = File.ReadAllText(versionFilePath);
@@ -39,7 +39,7 @@ public class AssetBundleBuilder
 
     private static void CommitAndPushToGit()
     {
-        RunGitCommand("git add Assets/AssetBundles");
+        RunGitCommand("git add .");
         RunGitCommand("git commit -m \"Auto commit from Unity Asset Bundle Builder\"");
         RunGitCommand("git push origin main");
     }
@@ -50,7 +50,7 @@ public class AssetBundleBuilder
         processStartInfo.WorkingDirectory = Application.dataPath;
         processStartInfo.RedirectStandardOutput = true;
         processStartInfo.UseShellExecute = false;
-        processStartInfo.CreateNoWindow = true;
+        processStartInfo.CreateNoWindow = false;
 
         using (Process process = Process.Start(processStartInfo))
         {
