@@ -1,0 +1,9 @@
+{
+  "bundles" : [
+    {
+      "name" : "model",
+      "version" : "1.0",
+      "url" : "https://github.com/IceWaterNotIce/VTC_MET4337_Lab05/main/AssetBundles/model"
+    }
+  ]
+}
