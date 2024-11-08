@@ -39,8 +39,8 @@ public class AssetBundleBuilder
 
     private static void CommitAndPushToGit()
     {
-        RunGitCommand("git add Assets/*");
-        RunGitCommand("git commit -m 'Auto commit from Unity Asset Bundle Builder'");
+        RunGitCommand("git add .");
+        RunGitCommand("git commit -m \"Auto commit from Unity Asset Bundle Builder\"");
         RunGitCommand("git push origin main");
     }
 
