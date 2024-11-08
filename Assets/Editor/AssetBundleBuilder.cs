@@ -42,6 +42,8 @@ public class AssetBundleBuilder
         RunGitCommand("git add .");
         RunGitCommand("git commit -m \"Auto commit from Unity Asset Bundle Builder\"");
         RunGitCommand("git push origin main");
+
+        UnityEngine.Debug.Log("Git commit and push done");
     }
 
     private static void RunGitCommand(string command)
@@ -57,5 +59,7 @@ public class AssetBundleBuilder
             process.WaitForExit();
             UnityEngine.Debug.Log(process.StandardOutput.ReadToEnd());
         }
+
+
     }
 }
