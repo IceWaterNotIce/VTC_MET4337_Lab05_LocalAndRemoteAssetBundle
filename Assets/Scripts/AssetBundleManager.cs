@@ -8,7 +8,7 @@ using UnityEngine.Networking;
 public class AssetBundleManager : MonoBehaviour
 {
     private string localVersionPath = Path.Combine(Application.streamingAssetsPath, "version.json");
-    private string remoteVersionUrl = "https://raw.githubusercontent.com/IceWaterNotIce/VTC_MET4337_Lab05/main/Assets/StreamingAssets/version.json";
+    private string remoteVersionUrl = "https://raw.githubusercontent.com/IceWaterNotIce/VTC_MET4337_Lab05/main/Assets/StreamingAssets/Bundles/version.json";
     private string downloadPath = Path.Combine(Application.streamingAssetsPath, "Bundles");
 
     // Start is called before the first frame update
