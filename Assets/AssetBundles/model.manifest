@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.7f1
-CRC: 1831864009
+CRC: 826267925
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9e3ca88178ebfeee8a21b61724a7a2f4
+    Hash: c971d77167b0142995ae19bb36b6b67c
   TypeTreeHash:
     serializedVersion: 2
     Hash: f88d6fe26edc836e9f11175e0fce23ef
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5e8b7e0cbafef02465b5b1bf8f794c07
+    Hash: 7f8978bacb165d0fb412d73e0ad44809
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,6 +40,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/AssetBundles/model.manifest
+- Assets/Prefabs/Character.prefab
 - Assets/Models/Chibi/Salsa Dancing.fbx
 - Assets/Models/Chibi/outUV.png
 - Assets/Models/Chibi/pop_base_pop_base_lambert1.mat
