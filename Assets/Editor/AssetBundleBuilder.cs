@@ -59,7 +59,5 @@ public class AssetBundleBuilder
             process.WaitForExit();
             UnityEngine.Debug.Log(process.StandardOutput.ReadToEnd());
         }
-
-
     }
 }
