@@ -33,6 +33,7 @@ public class AssetBundleBuilder
                 bundle.version = (float.Parse(bundle.version) + 0.1f).ToString();
             }
             File.WriteAllText(versionFilePath, JsonUtility.ToJson(versionData));
+            UnityEngine.Debug.Log("Version.json updated");
         }
     }
 
