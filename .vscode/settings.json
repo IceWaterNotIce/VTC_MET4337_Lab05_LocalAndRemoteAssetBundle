@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "VTC_MET4337_Lab5.sln"
+    "dotnet.defaultSolution": "VTC_MET4337_Lab5_LocalAndRemoteAssetBundle.sln"
 }
