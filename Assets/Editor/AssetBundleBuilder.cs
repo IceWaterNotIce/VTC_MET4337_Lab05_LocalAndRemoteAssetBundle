@@ -22,7 +22,7 @@ public class AssetBundleBuilder
 
     private static void UpdateVersionJson()
     {
-        string versionFilePath = Path.Combine(Application.streamingAssetsPath, "version.json");
+        string versionFilePath = Path.Combine(Application.streamingAssetsPath, "/Bundles/version.json");
         if (File.Exists(versionFilePath))
         {
             string json = File.ReadAllText(versionFilePath);
