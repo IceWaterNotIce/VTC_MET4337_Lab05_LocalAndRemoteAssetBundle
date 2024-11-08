@@ -1,2 +1,1 @@
-# VTC_MET4337_Lab05
-VTC_MET4337_Lab05
+# VTC MET4337 Lab05 Local And Remote Asset Bundle
