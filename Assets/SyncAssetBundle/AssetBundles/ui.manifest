@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.7f1
-CRC: 4111269539
+CRC: 2740262653
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 53e25ed35cfa799f5c3f41b7b463b2a5
+    Hash: a1c3d0dbec75e6263f5e8e71891e32e1
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9f349c36d7a6532f767333f9299b3e74
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7d56def36d1c61ea2cebce32bc7fe4ae
+    Hash: cafcf3f3a82d40aece50bb96845a6788
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -19,5 +19,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/SyncAssetBundle/Sprites/button1.png
+- Assets/Sprites/button1.png
 Dependencies: []

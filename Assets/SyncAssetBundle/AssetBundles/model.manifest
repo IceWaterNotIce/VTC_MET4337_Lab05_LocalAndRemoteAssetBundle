@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.7f1
-CRC: 3179163465
+CRC: 2462011960
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2ee6261062dd48095c030fb4605c8c6d
+    Hash: 9140f36975dbab991140af77ac332cd3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f88d6fe26edc836e9f11175e0fce23ef
+    Hash: e4e30ba832b85539fa804a70ab21a9fb
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 194372e014878814480d6ebf932d4220
+    Hash: 0fe978d9627acb467352241a29c125c2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,8 +25,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 49
-  Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
 - Class: 90
@@ -39,13 +37,10 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/SyncAssetBundle/AssetBundles/model.manifest
-- Assets/SyncAssetBundle/Prefabs/Character.prefab
-- Assets/SyncAssetBundle/Models/Chibi/Salsa Dancing.fbx
-- Assets/SyncAssetBundle/Models/Chibi/outUV.png
-- Assets/SyncAssetBundle/Models/Chibi/pop_base_pop_base_lambert1.mat
-- Assets/SyncAssetBundle/AssetBundles/ui.manifest
-- Assets/SyncAssetBundle/Models/Chibi/Chibi.controller
-- Assets/SyncAssetBundle/Models/Chibi/face1.png
-- Assets/SyncAssetBundle/AssetBundles/AssetBundles.manifest
+- Assets/Prefabs/Character.prefab
+- Assets/Models/Chibi/Salsa Dancing.fbx
+- Assets/Models/Chibi/outUV.png
+- Assets/Models/Chibi/pop_base_pop_base_lambert1.mat
+- Assets/Models/Chibi/Chibi.controller
+- Assets/Models/Chibi/face1.png
 Dependencies: []
